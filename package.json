@@ -1,0 +1,43 @@
+{
+  "name": "nestjs-moleculer",
+  "version": "1.0.1",
+  "description": "using Moleculer as a Nest module",
+  "main": "index.js",
+  "repository": "git@github.com:jiangzhuo/nestjs-moleculer.git",
+  "author": "jiangzhuo <glmmmmmm@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "precommit": "lint-staged",
+    "prepublish:npm": "npm run build",
+    "publish:npm": "npm publish --access public",
+    "prepublish:next": "npm run build",
+    "publish:next": "npm publish --access public --tag next"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^5.1.0",
+    "@nestjs/core": "^5.1.0",
+    "@types/node": "^7.0.41",
+    "lint-staged": "^7.0.0",
+    "moleculer": "^0.13.4",
+    "prettier": "^1.11.1",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.0.0",
+    "rxjs-compat": "^6.2.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.8.0"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^5.1.0",
+    "@nestjs/core": "^5.1.0",
+    "moleculer": "^0.13.4",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.0.0"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
