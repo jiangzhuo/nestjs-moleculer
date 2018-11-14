@@ -1,4 +1,11 @@
+#IDE
 .idea
+.awcache
+.vscode
+
+# dist
+dist
+
 # Logs
 logs
 *.log
