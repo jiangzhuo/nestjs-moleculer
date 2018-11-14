@@ -1,6 +1,6 @@
 {
   "name": "nestjs-moleculer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "using Moleculer as a Nest module",
   "main": "index.js",
   "repository": "git@github.com:jiangzhuo/nestjs-moleculer.git",
