@@ -22,7 +22,7 @@
     "moleculer": "^0.14.21",
     "prettier": "^1.11.1",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.2.0,
+    "rxjs": "^7.2.0",
     "rxjs-compat": "^6.2.1",
     "ts-node": "^3.3.0",
     "typescript": "^2.8.0"
