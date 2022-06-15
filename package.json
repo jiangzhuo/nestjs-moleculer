@@ -20,7 +20,7 @@
     "@nestjs/core": "^8.0.0",
     "@types/node": "^7.0.41",
     "lint-staged": "^7.0.0",
-    "moleculer": "^0.14.21",
+    "moleculer": "^0.13.4",
     "prettier": "^1.11.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0",
